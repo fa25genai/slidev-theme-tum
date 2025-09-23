@@ -2,44 +2,22 @@
 
 [![NPM version](https://img.shields.io/npm/v/slidev-theme-tum?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-tum)
 
-A (...) theme for [Slidev](https://github.com/slidevjs/slidev).
+A TUM (technical university of munich) theme for [Slidev](https://github.com/slidevjs/slidev).
 
-<!--
-  Learn more about how to write a theme:
-  https://sli.dev/guide/write-theme.html
---->
-
-<!--
-  run `npm run dev` to check out the slides for more details of how to start writing a theme
--->
-
-<!--
-  Put some screenshots here to demonstrate your theme
-
-  Live demo: [...]
--->
+![Screenshot of cover slide](docs/screenshots/01_cover.png)
+![Screenshot of intro slide](docs/screenshots/02_intro.png)
+![Screenshot of default slide #1](docs/screenshots/03_default.png)
+![Screenshot of slide with half-side image](docs/screenshots/05_image_left.png)
 
 ## Install
 
-Add the following frontmatter to your `slides.md`. Start Slidev then it will prompt you to install the theme automatically.
+Clone this repository into your sli.dev deployment and insert the following frontmatter in your file:
 
 <pre><code>---
-theme: <b>tum</b>
+theme: <b>/path/to/tum/theme</b>
 ---</code></pre>
 
 Learn more about [how to use a theme](https://sli.dev/guide/theme-addon#use-theme).
-
-## Layouts
-
-This theme provides the following layouts:
-
-> TODO:
-
-## Components
-
-This theme provides the following components:
-
-> TODO:
 
 ## Contributing
 
