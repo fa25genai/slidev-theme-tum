@@ -40,17 +40,14 @@
 }
 
 .slidev-page, .slidev-layout {
-    .tum-logo {
-        position: absolute;
-        right: 1.5rem;
-        top: 1.5rem;
-        width: 5rem;
-        height: auto;
-    }
-
     .tum-pageno {
         position: absolute;
         right: 1.5rem;
         bottom: 1rem;
     }
+}
+
+.slidev-layout {
+    /* Overwrite default behaviour of image containers */
+    background-size: contain !important;
 }

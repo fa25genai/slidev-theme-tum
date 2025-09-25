@@ -10,12 +10,13 @@
     "node": ">=18.0.0"
   },
   "scripts": {
-    "build": "slidev build example.md",
-    "dev": "slidev example.md --open",
-    "export": "slidev export example.md",
-    "screenshot": "slidev export example.md --format png"
+    "build": "slidev build example_2.md",
+    "dev": "slidev example_2.md --open",
+    "export": "slidev export example_2.md",
+    "screenshot": "slidev export example_2.md --format png"
   },
   "dependencies": {
+    "@slidev/theme-default": "^0.25.0",
     "@slidev/types": "^52.2.4"
   },
   "devDependencies": {
