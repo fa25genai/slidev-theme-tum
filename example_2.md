@@ -1,11 +1,12 @@
 ---
 theme: ./
-layout: intro
+layout: cover
 author: Kilian Krampf
 year: 2025
 ---
 
-# Introduction to For-Loops
+# Introduction to For-Loops Introduction to For-Loops Introduction to For-Loops Introduction to For-Loops
+[//]: # (# Introduction to For-Loops)
 Learning loops with a push-up example
 _Author: Your Name_
 
@@ -13,7 +14,7 @@ _Author: Your Name_
 layout: default
 ---
 
-# Example Java Program
+# Example Java Program Example Java Program Example Java Program Example Java Program
 ### Example Java Program
 ```java
 for (int i = 0; i < 10; i++) {
@@ -69,8 +70,6 @@ The advantages of for loops include:
 ---
 layout: two-cols-header
 ---
-
-Slide 7: Potential Uses of For Loops
 
 ::left::
 
