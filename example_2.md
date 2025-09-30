@@ -23,6 +23,19 @@ for (int i = 0; i < 10; i++) {
 ```
 
 ---
+layout: two-cols-image-header
+imageLeft: https://picsum.photos/600/300
+imageRight: https://picsum.photos/600/300
+---
+
+# This is the header
+
+And some other content!!
+
+::bottom::
+This is the footer
+
+---
 layout: statement
 ---
 
