@@ -2,7 +2,7 @@
   Usage:
 ```md
 ---
-layout: two-cols-header
+layout: two-cols-image-header
 ---
 This spans both
 ::left::
@@ -15,7 +15,7 @@ This image shows on the right
 This shows at the bottom, aligned to the end (bottom) of the grid
 
 <style>
-.two-cols-header {
+.two-cols-image-header {
   column-gap: 20px; /* Adjust the gap size as needed */
 }
 </style>

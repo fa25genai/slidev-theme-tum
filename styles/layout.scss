@@ -17,8 +17,3 @@
     margin-top: variables.$tum-logo-height * 2;
   }
 }
-
-.slidev-layout {
-    /* Overwrite default behaviour of image containers */
-    background-size: contain !important;
-}
