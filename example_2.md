@@ -8,6 +8,10 @@ year: 2025
 # Introduction to For-Loops Introduction to For-Loops Introduction to For-Loops Introduction to For-Loops
 [//]: # (# Introduction to For-Loops)
 Learning loops with a push-up example
+Learning loops with a push-up example
+Learning loops with a push-up example
+Learning loops with a push-up example
+Learning loops with a push-up example
 _Author: Your Name_
 
 ---
