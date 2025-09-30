@@ -1,0 +1,19 @@
+@use "./variables";
+
+:root {
+    font-family: Arial, sans-serif;
+}
+
+.slidev-layout {
+  padding: variables.$tum-logo-height;
+
+  h1 {
+    margin-top: variables.$tum-logo-height;
+  }
+}
+
+.slidev-layout:not(.cover):not(.intro) {
+  h1 {
+    margin-top: variables.$tum-logo-height * 2;
+  }
+}

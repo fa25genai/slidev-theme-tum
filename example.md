@@ -1,85 +1,72 @@
 ---
 theme: ./
+layout: cover
+author: Kilian Krampf
+year: 2025
 ---
 
-# Slidev Theme Starter
+# Presentation Title
+Subtitle, Author Name
 
-Presentation slides for developers (layout: cover)
 
 ---
 layout: intro
 ---
 
-# Slidev Theme Starter
+# Welcome
 
-Presentation slides for developers (layout: intro)
+This is a short description.
 
----
+_Author: Jane Doe_
 
-# What is Slidev?
-
-Slidev is a slide maker and presentation tool designed for developers. It includes the following features:
-
-- 📝 **Text-based** - focus on your content with Markdown, then style it later
-- 🎨 **Themable** - themes can be shared and reused as npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embed Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export to PDF, PPTX, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - virtually anything that's possible on a webpage is possible in Slidev
-
-<br>
-<br>
-
-Read more about [Why Slidev?](https://sli.dev/guide/why)
 
 ---
-
-# Navigation
-
-Hover on the bottom-left corner to see the navigation's controls panel
-
-## Keyboard Shortcuts
-
-|     |     |
-| --- | --- |
-| <kbd>space</kbd> / <kbd>tab</kbd> / <kbd>right</kbd> | next animation or slide |
-| <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-| <kbd>up</kbd> | previous slide |
-| <kbd>down</kbd> | next slide |
-
----
-layout: image-left
-image: https://cover.sli.dev
+layout: default
 ---
 
-# Code
+# Default Layout
 
-Use code snippets and get the highlighting directly!
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et urna nec sapien.
 
-```ts
-interface User {
-  id: number
-  firstName: string
-  lastName: string
-  role: string
-}
-
-function updateUser(id: number, update: Partial<User>) {
-  const user = getUser(id)
-  const newUser = { ...user, ...update }
-  saveUser(id, newUser)
-}
-```
 
 ---
 layout: center
-class: "text-center"
 ---
 
-# Learn More
+# Centered Content
 
-[Documentation](https://sli.dev) / [GitHub Repo](https://github.com/slidevjs/slidev)
+Lorem ipsum dolor sit amet, placed in the middle.
+
+
+---
+layout: section
+---
+
+# Section One
+
+
+---
+layout: statement
+---
+
+# Knowledge is Power
+
+
+---
+layout: fact
+---
+
+# 42
+
+The Answer to the Ultimate Question of Life, the Universe, and Everything.
+
+
+---
+layout: full
+---
+
+![Full Image](https://picsum.photos/1200/600)
+
 
 ---
 layout: image
@@ -87,3 +74,113 @@ image: https://picsum.photos/800/400
 backgroundSize: contain
 ---
 
+
+---
+layout: image-left
+image: https://picsum.photos/400/600
+class: right-content
+---
+
+# Right Side Text
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+
+---
+layout: image-right
+image: https://picsum.photos/400/600
+class: left-content
+---
+
+# Left Side Text
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+
+---
+layout: iframe
+url: https://example.com
+---
+
+
+---
+layout: iframe-left
+url: https://example.com
+class: right-content
+---
+
+# Right Column
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+
+---
+layout: iframe-right
+url: https://example.com
+class: left-content
+---
+
+# Left Column
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+
+---
+layout: two-cols
+---
+
+# Left Side
+
+Lorem ipsum dolor sit amet.
+
+::right::
+
+# Right Side
+
+Consectetur adipiscing elit.
+
+
+---
+layout: two-cols-header
+---
+
+Header Spanning Top
+
+::left::
+
+# Left Column
+
+Lorem ipsum dolor sit amet.
+
+::right::
+
+# Right Column
+
+Consectetur adipiscing elit.
+
+
+---
+layout: quote
+---
+
+> "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+
+— Cicero
+
+
+---
+layout: none
+---
+
+# Raw Slide
+
+<p style="color: red;">This slide uses no styling.</p>
+
+
+---
+layout: end
+---
+
+# Thank You!
+
+Questions?

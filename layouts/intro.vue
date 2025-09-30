@@ -1,4 +1,6 @@
 <script setup>
+import IntroCoverPage from "../components/IntroCoverPage.vue";
+
 const props = defineProps({
   university: {
     type: String,
@@ -13,15 +15,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="slidev-layout intro">
-    <div class="my-auto">
-      <slot />
-      <h5>
-        {{ props.chair }}<br/>
-        {{ props.school }}<br/>
-        {{ props.university }}
-      </h5>
-    </div>
-    <img class="tum-uhrenturm" src="../assets/TUM_Uhrenturm.png" alt="TUM Uhrenturm">
-  </div>
+  <IntroCoverPage>
+    <slot />
+  </IntroCoverPage>
 </template>
