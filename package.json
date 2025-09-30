@@ -1,6 +1,6 @@
 {
   "name": "slidev-theme-tum",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "type": "module",
   "keywords": [
     "slidev-theme",
@@ -17,7 +17,8 @@
   },
   "dependencies": {
     "@slidev/theme-default": "^0.25.0",
-    "@slidev/types": "^52.2.4"
+    "@slidev/types": "^52.2.4",
+    "sass-embedded": "^1.93.2"
   },
   "devDependencies": {
     "@slidev/cli": "^52.2.4",
