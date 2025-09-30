@@ -37,6 +37,10 @@ h1 {
   font-size: variables.$cover-title-font-size;
 }
 
+p {
+  max-width: 55%;
+}
+
 .tum-uhrenturm {
   position: absolute;
   right: 0;
