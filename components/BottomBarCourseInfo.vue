@@ -2,11 +2,11 @@
 const props = defineProps({
   professor: {
     type: String,
-    default: "Dr. Professor"
+    default: "Prof. Dr. Stephan Krusche"
   },
   course: {
     type: String,
-    default: "Course"
+    default: "Demo Course"
   },
   other: {
     type: String,
